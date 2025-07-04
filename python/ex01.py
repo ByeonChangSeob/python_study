@@ -1,10 +1,11 @@
-x=int(input())
-y=int(input())
-a=max(x,y)
-b=min(x,y)
-print(x+y)
-print(a-b)
-print(x*y)
-print((x+y)/2)
-print(max(x,y))
-print(min(x,y))
+a = int(input("첫 번째 숫자를 입력하세요: "))
+b = int(input("두 번째 숫자를 입력하세요: "))
+
+print("덧셈 결과:", a + b)
+print("뺄셈 결과:", a - b)
+print("곱셈 결과:", a * b)
+
+if b != 0:
+    print("나눗셈 결과:", a / b)
+else:
+    print("0으로 나눌 수 없습니다.")
